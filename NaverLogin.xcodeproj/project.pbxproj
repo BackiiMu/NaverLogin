@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		668C9BDE2B4D12BF000E0D1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668C9BDD2B4D12BF000E0D1A /* AppDelegate.swift */; };
+		668C9BE02B4D12BF000E0D1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668C9BDF2B4D12BF000E0D1A /* SceneDelegate.swift */; };
+		668C9BE22B4D12BF000E0D1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668C9BE12B4D12BF000E0D1A /* ViewController.swift */; };
+		668C9BE52B4D12BF000E0D1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 668C9BE32B4D12BF000E0D1A /* Main.storyboard */; };
+		668C9BE72B4D12C2000E0D1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 668C9BE62B4D12C2000E0D1A /* Assets.xcassets */; };
+		668C9BEA2B4D12C2000E0D1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 668C9BE82B4D12C2000E0D1A /* LaunchScreen.storyboard */; };
+		668C9BF52B4D12C2000E0D1A /* NaverLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668C9BF42B4D12C2000E0D1A /* NaverLoginTests.swift */; };
+		668C9BFF2B4D12C2000E0D1A /* NaverLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668C9BFE2B4D12C2000E0D1A /* NaverLoginUITests.swift */; };
+		668C9C012B4D12C2000E0D1A /* NaverLoginUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668C9C002B4D12C2000E0D1A /* NaverLoginUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		668C9BF12B4D12C2000E0D1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 668C9BD22B4D12BE000E0D1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 668C9BD92B4D12BF000E0D1A;
+			remoteInfo = NaverLogin;
+		};
+		668C9BFB2B4D12C2000E0D1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 668C9BD22B4D12BE000E0D1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 668C9BD92B4D12BF000E0D1A;
+			remoteInfo = NaverLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		668C9BDA2B4D12BF000E0D1A /* NaverLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaverLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		668C9BDD2B4D12BF000E0D1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		668C9BDF2B4D12BF000E0D1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		668C9BE12B4D12BF000E0D1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		668C9BE42B4D12BF000E0D1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		668C9BE62B4D12C2000E0D1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		668C9BE92B4D12C2000E0D1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		668C9BEB2B4D12C2000E0D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		668C9BF02B4D12C2000E0D1A /* NaverLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaverLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		668C9BF42B4D12C2000E0D1A /* NaverLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverLoginTests.swift; sourceTree = "<group>"; };
+		668C9BFA2B4D12C2000E0D1A /* NaverLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaverLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		668C9BFE2B4D12C2000E0D1A /* NaverLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverLoginUITests.swift; sourceTree = "<group>"; };
+		668C9C002B4D12C2000E0D1A /* NaverLoginUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverLoginUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		668C9BD72B4D12BF000E0D1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668C9BED2B4D12C2000E0D1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668C9BF72B4D12C2000E0D1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		668C9BD12B4D12BE000E0D1A = {
+			isa = PBXGroup;
+			children = (
+				668C9BDC2B4D12BF000E0D1A /* NaverLogin */,
+				668C9BF32B4D12C2000E0D1A /* NaverLoginTests */,
+				668C9BFD2B4D12C2000E0D1A /* NaverLoginUITests */,
+				668C9BDB2B4D12BF000E0D1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		668C9BDB2B4D12BF000E0D1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				668C9BDA2B4D12BF000E0D1A /* NaverLogin.app */,
+				668C9BF02B4D12C2000E0D1A /* NaverLoginTests.xctest */,
+				668C9BFA2B4D12C2000E0D1A /* NaverLoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		668C9BDC2B4D12BF000E0D1A /* NaverLogin */ = {
+			isa = PBXGroup;
+			children = (
+				668C9BDD2B4D12BF000E0D1A /* AppDelegate.swift */,
+				668C9BDF2B4D12BF000E0D1A /* SceneDelegate.swift */,
+				668C9BE12B4D12BF000E0D1A /* ViewController.swift */,
+				668C9BE32B4D12BF000E0D1A /* Main.storyboard */,
+				668C9BE62B4D12C2000E0D1A /* Assets.xcassets */,
+				668C9BE82B4D12C2000E0D1A /* LaunchScreen.storyboard */,
+				668C9BEB2B4D12C2000E0D1A /* Info.plist */,
+			);
+			path = NaverLogin;
+			sourceTree = "<group>";
+		};
+		668C9BF32B4D12C2000E0D1A /* NaverLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				668C9BF42B4D12C2000E0D1A /* NaverLoginTests.swift */,
+			);
+			path = NaverLoginTests;
+			sourceTree = "<group>";
+		};
+		668C9BFD2B4D12C2000E0D1A /* NaverLoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				668C9BFE2B4D12C2000E0D1A /* NaverLoginUITests.swift */,
+				668C9C002B4D12C2000E0D1A /* NaverLoginUITestsLaunchTests.swift */,
+			);
+			path = NaverLoginUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		668C9BD92B4D12BF000E0D1A /* NaverLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 668C9C042B4D12C2000E0D1A /* Build configuration list for PBXNativeTarget "NaverLogin" */;
+			buildPhases = (
+				668C9BD62B4D12BF000E0D1A /* Sources */,
+				668C9BD72B4D12BF000E0D1A /* Frameworks */,
+				668C9BD82B4D12BF000E0D1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NaverLogin;
+			productName = NaverLogin;
+			productReference = 668C9BDA2B4D12BF000E0D1A /* NaverLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		668C9BEF2B4D12C2000E0D1A /* NaverLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 668C9C072B4D12C2000E0D1A /* Build configuration list for PBXNativeTarget "NaverLoginTests" */;
+			buildPhases = (
+				668C9BEC2B4D12C2000E0D1A /* Sources */,
+				668C9BED2B4D12C2000E0D1A /* Frameworks */,
+				668C9BEE2B4D12C2000E0D1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				668C9BF22B4D12C2000E0D1A /* PBXTargetDependency */,
+			);
+			name = NaverLoginTests;
+			productName = NaverLoginTests;
+			productReference = 668C9BF02B4D12C2000E0D1A /* NaverLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		668C9BF92B4D12C2000E0D1A /* NaverLoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 668C9C0A2B4D12C2000E0D1A /* Build configuration list for PBXNativeTarget "NaverLoginUITests" */;
+			buildPhases = (
+				668C9BF62B4D12C2000E0D1A /* Sources */,
+				668C9BF72B4D12C2000E0D1A /* Frameworks */,
+				668C9BF82B4D12C2000E0D1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				668C9BFC2B4D12C2000E0D1A /* PBXTargetDependency */,
+			);
+			name = NaverLoginUITests;
+			productName = NaverLoginUITests;
+			productReference = 668C9BFA2B4D12C2000E0D1A /* NaverLoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		668C9BD22B4D12BE000E0D1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					668C9BD92B4D12BF000E0D1A = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					668C9BEF2B4D12C2000E0D1A = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 668C9BD92B4D12BF000E0D1A;
+					};
+					668C9BF92B4D12C2000E0D1A = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 668C9BD92B4D12BF000E0D1A;
+					};
+				};
+			};
+			buildConfigurationList = 668C9BD52B4D12BE000E0D1A /* Build configuration list for PBXProject "NaverLogin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 668C9BD12B4D12BE000E0D1A;
+			productRefGroup = 668C9BDB2B4D12BF000E0D1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				668C9BD92B4D12BF000E0D1A /* NaverLogin */,
+				668C9BEF2B4D12C2000E0D1A /* NaverLoginTests */,
+				668C9BF92B4D12C2000E0D1A /* NaverLoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		668C9BD82B4D12BF000E0D1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668C9BEA2B4D12C2000E0D1A /* LaunchScreen.storyboard in Resources */,
+				668C9BE72B4D12C2000E0D1A /* Assets.xcassets in Resources */,
+				668C9BE52B4D12BF000E0D1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668C9BEE2B4D12C2000E0D1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668C9BF82B4D12C2000E0D1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		668C9BD62B4D12BF000E0D1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668C9BE22B4D12BF000E0D1A /* ViewController.swift in Sources */,
+				668C9BDE2B4D12BF000E0D1A /* AppDelegate.swift in Sources */,
+				668C9BE02B4D12BF000E0D1A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668C9BEC2B4D12C2000E0D1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668C9BF52B4D12C2000E0D1A /* NaverLoginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668C9BF62B4D12C2000E0D1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668C9BFF2B4D12C2000E0D1A /* NaverLoginUITests.swift in Sources */,
+				668C9C012B4D12C2000E0D1A /* NaverLoginUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		668C9BF22B4D12C2000E0D1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 668C9BD92B4D12BF000E0D1A /* NaverLogin */;
+			targetProxy = 668C9BF12B4D12C2000E0D1A /* PBXContainerItemProxy */;
+		};
+		668C9BFC2B4D12C2000E0D1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 668C9BD92B4D12BF000E0D1A /* NaverLogin */;
+			targetProxy = 668C9BFB2B4D12C2000E0D1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		668C9BE32B4D12BF000E0D1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				668C9BE42B4D12BF000E0D1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		668C9BE82B4D12C2000E0D1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				668C9BE92B4D12C2000E0D1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		668C9C022B4D12C2000E0D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		668C9C032B4D12C2000E0D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		668C9C052B4D12C2000E0D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RMM4547GY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NaverLogin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hwang.NaverLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		668C9C062B4D12C2000E0D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RMM4547GY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NaverLogin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hwang.NaverLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		668C9C082B4D12C2000E0D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RMM4547GY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hwang.NaverLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NaverLogin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NaverLogin";
+			};
+			name = Debug;
+		};
+		668C9C092B4D12C2000E0D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RMM4547GY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hwang.NaverLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NaverLogin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NaverLogin";
+			};
+			name = Release;
+		};
+		668C9C0B2B4D12C2000E0D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RMM4547GY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hwang.NaverLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NaverLogin;
+			};
+			name = Debug;
+		};
+		668C9C0C2B4D12C2000E0D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RMM4547GY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hwang.NaverLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NaverLogin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		668C9BD52B4D12BE000E0D1A /* Build configuration list for PBXProject "NaverLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668C9C022B4D12C2000E0D1A /* Debug */,
+				668C9C032B4D12C2000E0D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		668C9C042B4D12C2000E0D1A /* Build configuration list for PBXNativeTarget "NaverLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668C9C052B4D12C2000E0D1A /* Debug */,
+				668C9C062B4D12C2000E0D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		668C9C072B4D12C2000E0D1A /* Build configuration list for PBXNativeTarget "NaverLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668C9C082B4D12C2000E0D1A /* Debug */,
+				668C9C092B4D12C2000E0D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		668C9C0A2B4D12C2000E0D1A /* Build configuration list for PBXNativeTarget "NaverLoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668C9C0B2B4D12C2000E0D1A /* Debug */,
+				668C9C0C2B4D12C2000E0D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 668C9BD22B4D12BE000E0D1A /* Project object */;
+}
