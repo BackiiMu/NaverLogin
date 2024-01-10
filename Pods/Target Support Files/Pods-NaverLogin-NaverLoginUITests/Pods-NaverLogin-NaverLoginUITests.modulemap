@@ -1,0 +1,6 @@
+framework module Pods_NaverLogin_NaverLoginUITests {
+  umbrella header "Pods-NaverLogin-NaverLoginUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
